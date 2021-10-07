@@ -1,0 +1,48 @@
+* { box-sizing: border-box; }
+
+.garden {
+    border: 1px solid red;
+}
+.garden__row {
+    border: 1px solid cyan;
+    display: flex;
+}
+.garden__plot {
+    border: 1px solid magenta;
+    width: 2rem;
+    height: 2rem;
+}
+.garden__plot--unknown {
+    background-color: gray;
+}
+.garden__plot--pumpkin {
+    background-color: orange;
+}
+.garden__plot--lettuce {
+    background-color: green;
+}
+.garden__plot--corn {
+    background-color: gold;
+}
+
+
+.material_box {
+    background-color: tan;
+}
+.material_box__material {
+    border-radius: 200px;
+    height: 2rem;
+    width: 2rem;
+}
+.material_box__material--unknown {
+    background-color: gray;
+}
+.material_box__material--pumpkin {
+    background-color: orange;
+}
+.material_box__material--lettuce {
+    background-color: green;
+}
+.material_box__material--corn {
+    background-color: gold;
+}
